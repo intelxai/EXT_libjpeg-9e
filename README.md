@@ -1,4 +1,4 @@
-# jpeg9e
+# jpeg-9e
 Stock package of jpeg9e
 
 NOTE: This file READme.md is my personal addition to the jpeg-9e package. It is intended to be a quick start and pointers to the important information to get started. It is not intendent to replace the README file from the source package. 

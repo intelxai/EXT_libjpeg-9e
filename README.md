@@ -1,9 +1,13 @@
 # jpeg-9e
 Stock package of jpeg9e
 
-NOTE: This file READme.md is my personal addition to the jpeg-9e package. It is intended to be a quick start and pointers to the important information to get started. It is not intendent to replace the README file from the source package (https://github.com/intelxai/jpeg-9e/blob/main/README). 
+NOTE: This file READme.md is my personal addition to the jpeg-9e package. 
+It is intended to be a quick start and pointers to the important information to get started. 
+It is not intendent to replace the README file from the source package (https://github.com/intelxai/jpeg-9e/blob/main/README). 
 
-In short, this repository contains the is the original package from the Independent JPEG group as found on the internet (https://www.ijg.org) as the un-tar product of (jpegsrc.v9e.tar.gz).
+In short, this repository contains the is the original package from the Independent 
+JPEG group as found on the internet (https://www.ijg.org) as the un-tar product 
+of (jpegsrc.v9e.tar.gz).
 
 1. If it is your first time with jpeg check the following documentation files:
 
@@ -24,20 +28,40 @@ Programmer and internal documentation:
 
 2. Install the jpeg software package - instructions (From jpeg-9e/install.txt):
 
-% ./configure
-% make
-% make test
+	./configure  
+	make  
+	make test  
 
 If that doesn't complain, do
 
-% make -n install
+	make -n install
 
-3. use the software (From jpeg-9e/usage.txt)
+3. Where did the install process saved the resulting files?
 
-Two programs are provided, cjpeg to compress an image file into JPEG format,
+On my unix systems (MacOS and Linux) the following where produced as executable binairies
+
+	/usr/local/bin/cjpeg  
+	/usr/local/bin/djpeg   
+	/usr/local/bin/jpegtran   
+	/usr/local/bin/rdjpgcom   
+	/usr/local/bin/wrjpgcom   
+
+And the following where produced as linkable libraries
+
+	/usr/local/lib/libjpeg.a   
+	/usr/local/lib/libjpeg.la   
+	/usr/local/lib/libjpeg.so   
+	/usr/local/lib/libjpeg.dylib -> libjpeg.9.dylib   
+	/usr/local/lib/libjpeg.la   
+	/usr/local/lib/pkgconfig  (A directory)   
+
+
+4. Use the utilities (From jpeg-9e/usage.txt)
+
+Two most generaly usefull programs are: cjpeg to compress an image file into JPEG format,
 and djpeg to decompress a JPEG file back into a conventional image format.
 
-On Unix-like systems, you say:
+On Unix-like systems, you invoke:
 
 	cjpeg [switches] [imagefile] >jpegfile
 or

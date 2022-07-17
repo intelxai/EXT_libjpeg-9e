@@ -1,7 +1,7 @@
 # jpeg-9e
 Stock package of jpeg9e
 
-NOTE: This file READme.md is my personal addition to the jpeg-9e package. It is intended to be a quick start and pointers to the important information to get started. It is not intendent to replace the README file from the source package. 
+NOTE: This file READme.md is my personal addition to the jpeg-9e package. It is intended to be a quick start and pointers to the important information to get started. It is not intendent to replace the README file from the source package (https://github.com/intelxai/jpeg-9e/blob/main/README). 
 
 In short, this repository contains the is the original package from the Independent JPEG group as found on the internet (https://www.ijg.org) as the un-tar product of (jpegsrc.v9e.tar.gz).
 

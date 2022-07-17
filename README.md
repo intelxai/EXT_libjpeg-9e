@@ -1,8 +1,9 @@
 # jpeg9e
 Stock package of jpeg9e
 
-This is the original package from the Independent JPEG group as found on the internet (https://www.ijg.org)
-as the un-tar product of (jpegsrc.v9e.tar.gz).
+NOTE: This file READme.md is my personal addition to the jpeg-9e package. It is intended to be a quick start and pointers to the important information to get started. It is not intendent to replace the README file from the source package. 
+
+In short, this repository contains the is the original package from the Independent JPEG group as found on the internet (https://www.ijg.org) as the un-tar product of (jpegsrc.v9e.tar.gz).
 
 1. If it is your first time with jpeg check the following documentation files:
 
@@ -15,21 +16,21 @@ User documentation (From the jpeg-9e/README file):
   change.log		Version-to-version change highlights.
 
 Programmer and internal documentation:
-  libjpeg.txt		  How to use the JPEG library in your own programs.
-  example.c		    Sample code for calling the JPEG library.
+  libjpeg.txt		How to use the JPEG library in your own programs.
+  example.c		Sample code for calling the JPEG library.
   structure.txt		Overview of the JPEG library's internal structure.
   filelist.txt		Road map of IJG files.
   coderules.txt 	Coding style rules --- please read if you contribute code.
 
 2. Install the jpeg software package - instructions (From jpeg-9e/install.txt):
 
-./configure
-make
-make test
+% ./configure
+% make
+% make test
 
 If that doesn't complain, do
 
-make -n install
+% make -n install
 
 3. use the software (From jpeg-9e/usage.txt)
 

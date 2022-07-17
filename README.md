@@ -55,6 +55,8 @@ And the following where produced as linkable libraries
 	/usr/local/lib/libjpeg.la   
 	/usr/local/lib/pkgconfig  (A directory)   
 
+NOTE: On my linux systems I needed to run step 2. as superuser for the files to be copied 
+at these locations. 
 
 4. Use the utilities (From jpeg-9e/usage.txt)
 

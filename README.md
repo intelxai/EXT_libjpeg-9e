@@ -1,7 +1,7 @@
 # jpeg-9e
 Stock package of jpeg9e
 
-NOTE: This file READme.md is my personal addition to the jpeg-9e package. 
+NOTE: This file README.md is my personal addition to the jpeg-9e package. 
 It is intended to be a quick start and pointers to the important information to get started. 
 It is not intendent to replace the README file from the source package (https://github.com/intelxai/jpeg-9e/blob/main/README). 
 
@@ -38,11 +38,11 @@ Programmer and internal documentation:
 	make  
 	make test  
 
-If that doesn't complain, do
+If the instructions at step (2.) doesn't produce errors, do
 
 	make -n install
 
-3. Where did the install process saved the resulting files?
+3. Where did make saved the resulting files?
 
 On my unix systems (MacOS and Linux) the following where produced as executable binairies
 

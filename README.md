@@ -86,7 +86,9 @@ or
 For more usage 
 
 	cjpeg -help
+	
 and
+
 	djpeg -help
   
 For developers, once you have completed the installation (See steps 1. and 2. here), you can use the functionality of the package as a library. For this purpose, consult libjpeg.txt and example.c

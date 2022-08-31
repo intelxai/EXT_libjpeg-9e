@@ -9,7 +9,13 @@ In short, this repository contains the is the original package from the Independ
 JPEG group as found on the internet (https://www.ijg.org) as the un-tar product 
 of (jpegsrc.v9e.tar.gz).
 
-0. If it is your first time with jpeg check the following documentation files:
+For background information on libjpeg you may want to see https://en.wikipedia.org/wiki/Libjpeg
+
+0. Clone this git repository
+
+	% git clone git@github.com:intelxai/EXT_libjpeg-9e
+
+1. If it is your first time with jpeg check the following documentation files:
 
 User documentation (From the jpeg-9e/README file):
 
@@ -27,10 +33,6 @@ Programmer and internal documentation:
 	structure.txt		Overview of the JPEG library's internal structure.
 	filelist.txt		Road map of IJG files.
 	coderules.txt		Coding style rules --- please read if you contribute code.
-
-1. Clone the git repository
-
-	% git clone git@github.com:intelxai/EXT_libjpeg-9e
 
 2. Install the jpeg software package - instructions (From jpeg-9e/install.txt):
 

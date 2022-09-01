@@ -91,7 +91,10 @@ and
 
 	djpeg -help
   
-For developers, once you have completed the installation (See steps 1. and 2. here), you can use the functionality of the package as a library. For this purpose, consult libjpeg.txt and example.c
+For developers, once you have completed the installation (See steps 1. and 2. here), you can use the 
+functionality of the package as a library. For this purpose, consult libjpeg.txt and example.c
+
+Note that example.c requires "jconfig.h" which is not part of the package and needs to be generated.
 
 Have fun.
 

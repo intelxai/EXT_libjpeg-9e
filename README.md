@@ -39,6 +39,11 @@ Programmer and internal documentation:
 	./configure  
 	make  
 	make test  
+	
+NOTE: Unlike many libraries, the main api include file "jconfig.h" is not included in the 
+package as a file. Instead, the ./configure script above will produce it. If you run into 
+troubles the first place to look is in config.log. See  jconfig.txt from this repository 
+for explanations
 
 If the instructions at step (2.) doesn't produce errors, do
 
@@ -90,12 +95,7 @@ For more usage
 and
 
 	djpeg -help
-  
-For developers, once you have completed the installation (See steps 1. and 2. here), you can use the 
-functionality of the package as a library. For this purpose, consult libjpeg.txt and example.c
 
-Note that example.c requires "jconfig.h" which is not part of the package and is generated generated 
-automatically by configure. See jconfig.txt from this repository for explanations.
 
 Have fun.
 
